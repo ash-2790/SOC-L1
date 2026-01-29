@@ -53,7 +53,7 @@
 ## 🗂️ Repository Structure
 
 ```
-SOC-L1-Preparation/
+SOC-L1
 ├── 01-Introduction/
 ├── 02-Lab-Setup/
 ├── 03-SOC-Fundamentals/
