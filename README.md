@@ -5,9 +5,34 @@
 </p>
 
 <p align="center">
-  <b>A complete, beginner-friendly roadmap for aspiring SOC Level 1 Analysts</b><br/>
-  Learn SOC fundamentals, security monitoring, and real-world blue-team workflows.
+  <b>Complete SOC Level 1 Roadmap | Blue Team | Cybersecurity</b><br/>
+  Notes, labs, tools, and interview prep for aspiring SOC L1 Analysts
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SOC-Level%201-blue" />
+  <img src="https://img.shields.io/badge/Blue%20Team-Cybersecurity-success" />
+  <img src="https://img.shields.io/badge/Beginner-Friendly-brightgreen" />
+  <img src="https://img.shields.io/badge/Hands--On-Labs-orange" />
+</p>
+
+---
+
+## 🎯 Who This Repository Is For
+
+* 🎓 Students & beginners in cybersecurity
+* 🔄 Career switchers aiming for SOC roles
+* 🛡️ Aspiring SOC Level 1 / Blue Team analysts
+* 💼 Candidates preparing for SOC interviews
+
+---
+
+## 📌 How to Use This Repository
+
+1. Follow the topics **in sequence** for best understanding
+2. Complete **Lab Setup** before moving to SIEM and analysis topics
+3. Practice hands-on exercises alongside notes
+4. Use the interview section for revision before interviews
 
 ---
 
@@ -25,37 +50,53 @@
 
 ---
 
-## 📌 What You’ll Learn
+## 🗂️ Repository Structure
 
-* Core SOC concepts and analyst responsibilities
-* Practical security monitoring and alert analysis
-* Blue-team fundamentals used in real-world SOCs
-* Tools, workflows, and industry-standard frameworks
+```
+SOC-L1-Preparation/
+├── 01-Introduction/
+├── 02-Lab-Setup/
+├── 03-SOC-Fundamentals/
+├── 04-Phishing-Analysis/
+├── 05-Network-Security/
+├── 06-Endpoint-Security/
+├── 07-SIEM/
+├── 08-Threat-Intelligence/
+├── 09-Digital-Forensics/
+└── Interview-Preparation/
+```
 
 ---
 
 ## 📘 Topics Covered
 
-> ⚠️ **Note:** Some sections appeared empty because the headings existed but their descriptive blocks were unintentionally removed during formatting updates. This has now been fixed below.
-
 ### 1️⃣ Introduction
 
-![Introduction](https://img.icons8.com/color/96/cyber-security.png)
-An overview of cybersecurity, SOC operations, and the role of a SOC L1 analyst. This section helps beginners understand how SOC teams operate and what is expected in an entry-level role.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="60" align="left" />
+  <b>Introduction</b> provides an overview of cybersecurity, SOC operations, and the role of a SOC Level 1 analyst. You will understand how SOC teams work, common responsibilities, and industry expectations.
+</p>
+<br/>
 
 ---
 
 ### 2️⃣ Lab Setup
 
-![Lab Setup](https://img.icons8.com/color/96/server.png)
-Guides to setting up a basic cybersecurity lab using virtual machines and open-source tools. Covers environment preparation for practicing SOC concepts such as monitoring, log analysis, and attack simulation.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" width="60" align="left" />
+  <b>Lab Setup</b> guides you through creating a basic SOC practice environment using virtual machines and open-source tools. This lab will be used throughout the repository for hands-on practice.
+</p>
+<br/>
 
 ---
 
 ### 3️⃣ SOC Fundamentals
 
-![SOC Fundamentals](https://img.icons8.com/color/96/security-checked.png)
-Introduces SOC architecture, analyst duties, alert lifecycle, incident handling, escalation procedures, and SOC workflows. Builds the foundation needed to understand daily SOC operations.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="60" align="left" />
+  <b>SOC Fundamentals</b> explains SOC architecture, analyst roles, alert lifecycle, incident classification, escalation procedures, and real-world SOC workflows.
+</p>
+<br/>
 
 ---
 
@@ -63,16 +104,8 @@ Introduces SOC architecture, analyst duties, alert lifecycle, incident handling,
 
 <p align="left">
   <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" width="60" align="left" />
-  <b>Phishing Analysis</b> focuses on identifying and analyzing phishing attacks commonly handled by SOC L1 analysts. This section covers phishing techniques, email header analysis, malicious URL inspection, attachment analysis, and detection methods. It also introduces common indicators of compromise (IOCs) and analyst workflows used during phishing investigations.
+  <b>Phishing Analysis</b> focuses on detecting and analyzing phishing emails. Topics include email header analysis, malicious URLs, attachments, IOCs, and analyst response workflows.
 </p>
-
-<br/>
-
-<p align="left">
-  <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" width="60" align="left" />
-  <b>Phishing Analysis</b> covers phishing attack techniques, email header analysis, URL inspection, attachment analysis, and detection methods. It also includes common indicators of compromise (IOCs) used by SOC analysts to identify and respond to phishing incidents.
-</p>
-
 <br/>
 
 ---
@@ -81,16 +114,8 @@ Introduces SOC architecture, analyst duties, alert lifecycle, incident handling,
 
 <p align="left">
   <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" width="60" align="left" />
-  <b>Network Security</b> explains networking concepts from a SOC monitoring perspective. Topics include network protocols, firewalls, IDS/IPS, traffic analysis, and common network-based attacks. This section helps analysts understand how to detect suspicious network activity using logs and alerts.
+  <b>Network Security</b> covers network fundamentals, firewalls, IDS/IPS, packet analysis, and common network-based attacks monitored by SOC teams.
 </p>
-
-<br/>
-
-<p align="left">
-  <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" width="60" align="left" />
-  <b>Network Security</b> explains networking fundamentals from a security perspective, including protocols, firewalls, IDS/IPS, traffic analysis, and common network-based attacks relevant to SOC monitoring and detection.
-</p>
-
 <br/>
 
 ---
@@ -99,53 +124,67 @@ Introduces SOC architecture, analyst duties, alert lifecycle, incident handling,
 
 <p align="left">
   <img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" width="60" align="left" />
-  <b>Endpoint Security</b> covers endpoint-based threats such as malware, ransomware, and persistence techniques. It introduces host-based detection, EDR concepts, system logs, and endpoint indicators used by SOC analysts during investigations and incident response.
+  <b>Endpoint Security</b> introduces malware behavior, ransomware, persistence mechanisms, EDR concepts, and host-based indicators used during investigations.
 </p>
-
-<br/>
-
-<p align="left">
-  <img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" width="60" align="left" />
-  <b>Endpoint Security</b> focuses on endpoint threats, malware behavior, host-based detection, EDR concepts, and system-level indicators used by SOC analysts during investigations.
-</p>
-
 <br/>
 
 ---
 
 ### 7️⃣ Security Information and Event Management (SIEM)
 
-![SIEM](https://img.icons8.com/color/96/database.png)
-Introduces SIEM concepts such as log collection, normalization, correlation rules, alerts, dashboards, and basic use cases using tools like Splunk or ELK.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/2917/2917990.png" width="60" align="left" />
+  <b>SIEM</b> explains log collection, correlation rules, alerts, dashboards, and detection use cases using platforms like Splunk and ELK.
+</p>
+<br/>
 
 ---
 
 ### 8️⃣ Threat Intelligence
 
-![Threat Intelligence](https://img.icons8.com/color/96/artificial-intelligence.png)
-Covers threat intelligence fundamentals, IOCs, TTPs, MITRE ATT&CK framework, and how threat intel is used to enhance detection and response.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/2103/2103658.png" width="60" align="left" />
+  <b>Threat Intelligence</b> covers IOCs, TTPs, MITRE ATT&CK, and how threat intelligence enhances detection and response.
+</p>
+<br/>
 
 ---
 
 ### 9️⃣ Digital Forensics
 
-![Digital Forensics](https://img.icons8.com/color/96/forensic-analysis.png)
-Introduces digital forensics concepts including evidence collection, log timelines, disk and memory analysis, and forensic principles relevant to SOC investigations.
+<p align="left">
+  <img src="https://cdn-icons-png.flaticon.com/512/3048/3048396.png" width="60" align="left" />
+  <b>Digital Forensics</b> introduces evidence handling, log timelines, disk and memory forensics, and post-incident analysis relevant to SOC investigations.
+</p>
+<br/>
 
 ---
 
-## 🎯 Who This Repository Is For
+## 🧪 Hands-On Labs & Practice
 
-* Students and beginners in cybersecurity
-* Aspiring SOC L1 / Blue Team analysts
-* Anyone preparing for SOC interviews and entry-level roles
-
----
-
-## 🚀 Goal of This Repository
-
-To provide a **single, organized, and practical reference** for SOC Level 1 preparation—bridging the gap between learning cybersecurity concepts and applying them in real SOC environments.
+* Log analysis and alert triage
+* Phishing email investigation
+* Network traffic analysis
+* Endpoint incident investigation
+* SIEM query writing
 
 ---
 
-⭐ If you find this repository useful, consider starring it and contributing!
+## 🎤 Interview Preparation
+
+This repository helps you prepare for SOC interviews by mapping topics to real interview expectations:
+
+* Alert triage → SOC Fundamentals
+* Email investigations → Phishing Analysis
+* Log analysis → SIEM & Network Security
+* Incident handling → Endpoint Security & Forensics
+
+---
+
+## 🤝 Contributions
+
+Contributions, suggestions, and improvements are welcome. This repository is beginner-friendly and community-driven.
+
+---
+
+⭐ If this repository helps you, consider starring it and sharing it on LinkedIn!
